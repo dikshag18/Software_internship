@@ -7,7 +7,7 @@ fruits.push("Grapes");
 console.log(fruits); 
 
 
-
+******************************************************
 // Objects
 
 let person = {
