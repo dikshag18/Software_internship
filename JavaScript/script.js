@@ -1,5 +1,5 @@
 
-// Que 1
+// print from 1 to 10
 for (let i = 1; i <= 10; i++) {
     console.log(i);
 }
@@ -7,14 +7,14 @@ for (let i = 1; i <= 10; i++) {
 
 
 // **********************************
-// Que 2
+// odd numbers less than 100
 for (let i = 1; i < 100; i += 2) {
     console.log(i);
 }
 
 
 // **********************************
-// Que 3
+// print all the multiplication tables with numbers from 1 to 10
 for (let i = 1; i <= 10; i++) {
     console.log(`Multiplication Table for ${i}`);
     for (let j = 1; j <= 10; j++) {
@@ -24,7 +24,7 @@ for (let i = 1; i <= 10; i++) {
 }
 
 // **********************************
-// Que 4
+// sum of numbers from 1 to 10
 let sum = 0;
 
 for (let i = 1; i <= 10; i++) {
@@ -34,7 +34,7 @@ for (let i = 1; i <= 10; i++) {
 console.log(`The sum of numbers is ${sum}`);
 
 // *********************************
-// Que 5
+//  factorial of any number
 const prompt = require("prompt-sync")();
 const number = parseInt(prompt('Enter a positive integer: '));
 // let num = 5; 
@@ -54,7 +54,7 @@ console.log("Factorial of " + number + " is " + factorial);
 
 
 // **********************************
-// Que 6
+// sum of even numbers greater than 10 and less than 30
 let sum1 = 0;
 
 for (let i = 12; i < 30; i += 2) {
@@ -65,42 +65,39 @@ console.log(`The sum is ${sum1}`);
 
 
 // *********************************
-// Que 7
+// convert from Celsius to Fahrenheit
+
 const celsius = prompt("Enter a celsius value: ");
 
-// calculate fahrenheit
 const fahrenheit = (celsius * 9/5) + 32
 
-// display the result
 console.log(`${celsius} degree celsius is equal to ${fahrenheit} degree fahrenheit.`);
 
 
 // ********************************
-// Que 8
+// sum of numbers in an array of numbers
 let numbers = [3, 7, 12, 5, 9];
 let sum2 = 0;
 
 for (let i = 0; i < numbers.length; i++) {
     sum2 += numbers[i];
 }
-
 console.log(`The sum of numbers in the array is: ${sum2}`);
 
 
 // ************************************
-// Que 9
+// average of the numbers in an array of numbers
+
 let number1 = [1, 2, 3, 4, 5];
-
 let sum3 = number1.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
-
 let average = sum3 / numbers.length;
 
 console.log(average); 
 
 
 // **************************************
-// Que 10
-let num = [1, 2, 3, 4, 5];
+// highest and lowest number in an array of numbers
+let num = [11, 12, 31, 65, 18];
 
 let highest = Math.max(...num);
 
