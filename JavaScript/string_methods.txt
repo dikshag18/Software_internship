@@ -1,0 +1,69 @@
+1. charAt(index): Returns the character at the specified index in a string.
+
+let str = "Hello";
+console.log(str.charAt(1)); 
+
+2. concat(str1, str2, ..., strN): Joins two or more strings and returns a new concatenated string.
+
+let str1 = "Hello";
+let str2 = "World";
+console.log(str1.concat(" ", str2)); // "Hello World"
+
+3. includes(searchString, position): Determines whether a string contains the characters of a specified string.
+
+let str = "Hello World";
+console.log(str.includes("World")); // true
+
+4. indexOf(searchValue, fromIndex): Returns the position of the first occurrence of a specified value in a string.
+
+let str = "Hello World";
+console.log(str.indexOf("World")); // 6
+
+5. lastIndexOf(searchValue, fromIndex): Returns the position of the last occurrence of a specified value in a string.
+
+let str = "Hello World Hello";
+console.log(str.lastIndexOf("Hello")); // 12
+
+6. slice(beginIndex, endIndex): Extracts a part of a string and returns a new string without modifying the original string.
+
+let str = "Hello World";
+console.log(str.slice(0, 5)); // "Hello"
+
+7. split(separator, limit): Splits a string into an array of substrings based on a specified separator.
+
+let str = "Hello World";
+console.log(str.split(" ")); // ["Hello", "World"]
+
+8. substring(start, end): Extracts characters from a string between two specified indices.
+
+let str = "Hello World";
+console.log(str.substring(0, 5)); // "Hello"
+
+9. toLowerCase(): Converts a string to lowercase letters.
+
+let str = "Hello World";
+console.log(str.toLowerCase()); // "hello world"
+
+10. toUpperCase(): Converts a string to uppercase letters.
+
+let str = "Hello World";
+console.log(str.toUpperCase()); // "HELLO WORLD"
+
+11. trim(): Removes whitespace from both ends of a string.
+
+let str = "   Hello World   ";
+console.log(str.trim()); // "Hello World"
+
+12. replace(searchValue, newValue): Replaces a specified value with another value in a string.
+
+let str = "Hello World";
+console.log(str.replace("World", "JavaScript")); // "Hello JavaScript"
+
+
+
+
+
+
+
+
+
